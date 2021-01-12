@@ -12,12 +12,43 @@
    background-image:url(https://www.umultirank.org/export/sites/default/.galleries/generic-images/Others/Winter-Calendar/why-should-I-study-in-Barcelona.jpg_786252235.jpg);
    background-size:cover;
   background-repeat: no-repeat;
-   min-height: 100vh;
+  min-height:100vh;
+   
+}
+.text{
+
+  
+  
+  color:white;
+}
+.first{
+  animation-name:opacity;
+  animation-duration:4s;
+  animation-iteration-count: 1;
+  text-align:center;
+  font-size:5em; 
+  background-color: rgba(0, 0, 0, 0.322);
+  border-radius: 20px;
+  max-width: 10em;
+  margin:auto;
+  margin-top:0.5em;
+}
+
+.second{
+  margin:auto;
+  margin-right:4em;
+  margin-top:15em;
+  max-width: 9em;
+  animation-fill-mode: backwards;
+  animation-delay:4s;
+  animation-name:opacity;
+  animation-duration:10s;
+  animation-iteration-count: 1;
 }
 
 
-
 ul {
+  
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -26,6 +57,7 @@ ul {
 }
 
 li {
+  
   float:left;
   margin-left:15%;
   border-radius: 5px;
