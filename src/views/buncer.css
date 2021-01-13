@@ -9,6 +9,8 @@
 
 
 .buncer{
+    display:flex;
+    flex-direction: column;
     animation-name:opacity;
     animation-duration:1s;
     animation-iteration-count: 1;
@@ -25,4 +27,75 @@
     animation-duration:3s;
     animation-fill-mode:forwards;
     animation-delay: 5s;
+}
+
+.pic1{
+   background-image:url("../img/pic1.jpg");
+   width:23.6em;
+   margin-left:3em;
+   height: 18em;
+   background-size:contain;
+   background-repeat: no-repeat;
+   float:left;
+   border-radius: 30px;
+   margin-bottom: 3em;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+
+.pic2{
+   background-image:url("../img/pic2.jpg");
+   width:25em;
+   height: 17.2em;
+   margin-left:3em;
+   background-size:contain;
+   background-repeat: no-repeat;
+   float:left;
+   border-radius: 30px;
+   margin-bottom: 3em;
+    box-shadow: 5px 5px 5px 5px;
+   
+}
+
+.pic3{
+   background-image:url("../img/pic3.jpg");
+   width:25em;
+   height: 18.7em;
+   margin-left:3em;
+   background-size:contain;
+   background-repeat: no-repeat;
+   float:left;
+   border-radius: 30px;
+   margin-bottom: 3em;
+    box-shadow: 5px 5px 5px 5px;
+   
+}
+.pic4{
+   background-image:url("../img/pic4.jpg");
+   width:18.8em;
+   height: 19em;
+   background-size:contain;
+   background-repeat: no-repeat;
+   float:left;
+   margin-left:3em;
+   border-radius: 30px;
+   margin-bottom: 3em;
+   box-shadow: 5px 5px 5px 5px;
+   
+}
+.button{
+     background-color: #111;
+    margin-left:12em;
+    float:left;
+    color: white;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    font-weight: bold;
+    border-radius:20px;
+     box-shadow: 5px 5px 5px 5px black;
+    
+    
+
 }
