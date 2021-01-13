@@ -1,6 +1,6 @@
 
 import './App.css';
-import {Link,Switch, Route}from "react-router-dom";
+import {NavLink,Switch, Route}from "react-router-dom";
 import Buncer from "./views/Buncer"
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
 
       
 <ul>
- <Link to="/"> <li><a class="active" href="#home">Home</a></li></Link>
- <Link to="/buncer"> <li><a href="#news">Buncer Del Carmel</a></li></Link>
+ <NavLink activeClassName="current" to="/home"> <li><a>Home</a></li></NavLink>
+ <NavLink activeClassName="current" to="/buncer"> <li><a href="#news">Buncer Del Carmel</a></li></NavLink>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
 </ul>
@@ -25,7 +25,11 @@ function App() {
       <Route path="/">
         <div className="text">
         <div className="first" >Welcome to Barcelona</div>
-        <div className="second">Last Summer my friends and me decided to make a Trip to Barcelona</div>
+        <div className="second"><h4>This is a short presentation about my last visit to Barcelona <br></br><br></br>
+        The City has some awesome places to go and I will show you some of these <br></br><br></br>
+        enjoy!</h4></div>
+
+        <div><iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/0cHbqAIw4zc?start=17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
       </Route>
 

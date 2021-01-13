@@ -15,6 +15,11 @@
   min-height:100vh;
    
 }
+
+
+a.current{
+  color:red;
+}
 .text{
 
   
@@ -23,10 +28,12 @@
 }
 .first{
   animation-name:opacity;
+  animation-delay: 3s;
+  animation-fill-mode: backwards;
   animation-duration:4s;
   animation-iteration-count: 1;
   text-align:center;
-  font-size:5em; 
+  font-size:4em; 
   background-color: rgba(0, 0, 0, 0.322);
   border-radius: 20px;
   max-width: 10em;
@@ -35,17 +42,35 @@
 }
 
 .second{
+  float:left;
   margin:auto;
-  margin-right:4em;
-  margin-top:15em;
-  max-width: 9em;
+  margin-top:5em;
+  margin-left:10em;
+  background-color: rgba(0, 0, 0, 0.637);
+  border-radius: 10px;
+  max-width: 15em;
   animation-fill-mode: backwards;
-  animation-delay:4s;
+  animation-delay:6s;
   animation-name:opacity;
-  animation-duration:10s;
+  animation-duration:4s;
   animation-iteration-count: 1;
+  
 }
-
+.video{
+  animation-name:opacity;
+  animation-delay:9s;
+  animation-duration:3s;
+  animation-fill-mode: backwards;
+  margin-top:5em;
+  border-radius: 20px;
+  width:40em;
+}
+.current li a{
+  color:white;
+  font-size:bold;
+  transform:scale(1.1);
+   background-color: #111;
+}
 
 ul {
   
@@ -65,7 +90,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: grey;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;

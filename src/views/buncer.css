@@ -2,6 +2,11 @@
     from{opacity:0}
     to{opacity:4}}
 
+    @keyframes backwards{
+        from{opacity:4}
+    to{opacity:0} 
+    }
+
 
 .buncer{
     animation-name:opacity;
@@ -14,4 +19,10 @@
     
     min-height:100vh;
 }
-
+.welcome{
+    font-size:4em;
+    animation-name:backwards;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    animation-delay: 5s;
+}
