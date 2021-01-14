@@ -32,6 +32,9 @@ function App() {
         <div><iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/0cHbqAIw4zc?start=17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
       </Route>
+      <Route path="/sagrada">
+        
+      </Route>
 
       </Switch>
 
