@@ -1,0 +1,23 @@
+@keyframes opacity {
+    from{opacity:0;
+    }
+    to{opacity:4}}
+
+    @keyframes backwards{
+        from{opacity:4}
+    to{opacity:0} 
+    }
+
+
+
+
+
+.sagrada{
+    animation-name:opacity;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
+    background-image:url(https://i.imgur.com/XiN04qO.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
