@@ -37,9 +37,11 @@
   max-width: 10em;
   margin:auto;
   margin-top:0.5em;
+  padding:10px;
 }
 
 .second{
+  padding:10px;
   float:left;
   margin:auto;
   margin-top:5em;
