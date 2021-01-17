@@ -1,0 +1,46 @@
+@keyframes opacity {
+    from{opacity:0;
+    }
+    to{opacity:4}}
+
+    @keyframes backwards{
+        from{opacity:4}
+    to{opacity:0} 
+    }
+
+
+
+
+
+.Gaudi{
+    animation-name:opacity;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
+    background-image:url(https://img5.goodfon.com/wallpaper/nbig/a/21/dom-mila-barselona-gaudi-arkhitektura.jpg);
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    background-repeat: no-repeat;
+    min-height:100vw;
+    background-attachment:fixed;
+    
+}
+
+.firstpic{
+    
+    width:50em;
+    margin:auto;
+    border-radius:20px;
+    margin-top:5em;
+    margin-bottom:5em;
+}
+
+.textgaudi{
+
+    color:white;
+    width:60em;
+    margin:auto;
+    background-color:rgba(0, 0, 0, 0.87);
+    padding:10px;
+    border-radius:20px;
+}

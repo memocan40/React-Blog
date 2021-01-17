@@ -4,6 +4,7 @@ import {NavLink,Switch, Route}from "react-router-dom";
 import Buncer from "./views/Buncer";
 import Sagrada from "./views/Sagrada";
 import Next from "./views/Next";
+import Gaudi from "./views/Gaudi";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
  <NavLink activeClassName="current" to="/home"> <li><a>Home</a></li></NavLink>
  <NavLink activeClassName="current" to="/buncer"> <li><a href="#news">Buncer Del Carmel</a></li></NavLink>
  <NavLink activeClassName="current" to="/sagrada"> <li><a href="#contact">Sagrada</a></li></NavLink>
+ <NavLink activeClassName="current" to="/gaudi"><li><a href="#gaudi">Gaudi</a></li></NavLink>
   <NavLink activeClassName="current" to="/next"><li><a href="#about">About</a></li></NavLink>
 </ul>
 
@@ -27,9 +29,11 @@ function App() {
       <Route path="/next">
         <Next/>
       </Route>
-
       <Route path="/sagrada">
         <Sagrada/>
+      </Route>
+      <Route path="/gaudi">
+        <Gaudi />
       </Route>
       <Route path="/">
         <div className="text">
